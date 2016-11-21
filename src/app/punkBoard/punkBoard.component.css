@@ -1,0 +1,31 @@
+.punk-board {
+  display: block;
+  width: 610px;
+  margin-top: 40px;
+}
+
+.punk-board .daft-key {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  border: 1px solid #f2f2f2;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 150px;
+  background-color: #62a7be
+}
+
+.punk-board .daft-key.played {
+  background-color: #466473;
+}
+
+.punk-board .daft-key .verse {
+  font-style: italic;
+  font-weight: 200;
+}
+
+.punk-board .daft-key .hotkey {
+  font-size: 2em;
+}
