@@ -97,7 +97,7 @@ export class PunkBoardComponent {
    */
   playVerse(verseIndex) {
     let pitch = this.lowPitch ? 'low' : 'high';
-    let url = `../../samples/${pitch}/${verseIndex + 1}.wav`;
+    let url = `./samples/${pitch}/${verseIndex + 1}.wav`;
     let audio = new Audio(url);
     audio.play();
 

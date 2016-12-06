@@ -1,6 +1,6 @@
 import { Component, HostListener } from '@angular/core';
 
-const audio = new Audio('../samples/song-instrumental.mp3');
+const audio = new Audio('./samples/song-instrumental.mp3');
 const PLAY = 'PLAY';
 const STOP = 'STOP';
 
