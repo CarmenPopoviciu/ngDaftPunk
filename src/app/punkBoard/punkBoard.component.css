@@ -21,6 +21,14 @@
   background-color: #466473;
 }
 
+.punk-board .daft-key.dark.played {
+  background-color: #62a7be
+}
+
+.punk-board .daft-key.dark {
+  background-color: #466473
+}
+
 .punk-board .daft-key .verse {
   font-style: italic;
   font-weight: 200;

@@ -1,6 +1,26 @@
 .daft-punk {
-  width: 50%;
+  width: 606px;
   margin: auto;
   color: #384c54;
   font-family: 'Open Sans Pro',Helvetica,Arial,sans-serif;
+}
+
+button.play {
+  line-height: 2em;
+  font-size: 1em;
+  font-weight: 500;
+  color: #466473;
+  border: 3px solid #466473;
+  background-color: white;
+  float: right;
+  cursor: pointer;
+}
+
+button.play:hover {
+  background-color: #466473;
+  color: white;
+}
+
+.btn-container {
+  padding-bottom: 20px;
 }

@@ -24,19 +24,14 @@ const KEYS = [
   styleUrls: ['./punkBoard.component.css']
 })
 export class PunkBoardComponent {
-  private lyrics: Array<String>;
-  private keys: Array<String>;
+  private lyrics: Array<String> = LYRICS;
+  private keys: Array<String> = KEYS;
 
   private lowPitch: boolean = true;
   private playedVerse: string;
 
-  constructor() {
-    this.lyrics = LYRICS;
-    this.keys = KEYS;
-  }
-
   @HostListener('document:keydown', ['$event'])
-  play(ev: KeyboardEvent) {
+  onKeyDown(ev: KeyboardEvent) {
     ev.stopPropagation();
     switch (ev.which) {
       case 81: // Q (WORK IT) 

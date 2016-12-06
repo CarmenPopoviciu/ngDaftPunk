@@ -1,7 +1,7 @@
 <div class="punk-board">
   <div class="daft-key" *ngFor="let verse of lyrics; let index=index" 
        (click)="playVerse(index)"
-       [ngClass]="{played: index==playedVerse}">
+       [ngClass]="{played: index==playedVerse, dark: !lowPitch}">
     <span class="verse">{{verse}}</span> 
     <span class="hotkey">({{keys[index]}})</span>
   </div>
